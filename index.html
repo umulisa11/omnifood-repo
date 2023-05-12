@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"></script>
+
     <title>omnifood</title>
   </head>
   <body>
@@ -37,12 +40,12 @@
             <a href="#" class="btn btn--outline">Learn more &darr;</a>
             <div class="delivered-meals">
               <div class="delivered-imgs">
-                <img src="img/customer-1.jpj" alt="customer photo" />
-                <img src="img/customer-2.jpj" alt="customer photo" />
-                <img src="img/customer-3.jpj" alt="customer photo" />
-                <img src="img/customer-4.jpj" alt="customer photo" />
-                <img src="img/customer-5.jpj" alt="customer photo" />
-                <img src="img/customer-6.jpj" alt="customer photo" />
+                <img src="img/customer-1.jpg" alt="customer photo" />
+                <img src="img/customer-2.jpg" alt="customer photo" />
+                <img src="img/customer-3.jpg" alt="customer photo" />
+                <img src="img/customer-4.jpg" alt="customer photo" />
+                <img src="img/customer-5.jpg" alt="customer photo" />
+                <img src="img/customer-6.jpg" alt="customer photo" />
               </div>
               <p class="delivered-text">
                 <span>250,000+</span> meals delivered last year!
@@ -136,6 +139,143 @@
             />
           </div>
         </div>
+      </section>
+      <section class="section-meals">
+        <div class="container center-text">
+          <span class="subheading">Meals</span>
+          <h2 class="heading-secondary">
+            Omnifood AI chooses from 5,000+ Recipes
+          </h2>
+        </div>
+        <div class="container grid grid--3-cols margin-bottom-md">
+          <div class="meal">
+            <img src="img/meal-1.jpg" class="meal-img"
+             alt="japanese gyozas"/>
+             <div class="meal-content ">
+             <div class="meal-tags"> 
+            <span class="tag tag--vegetarian">Vegetarian</span>
+          </div>
+             <p class="meal-title">japanese gyozas</p>
+             <ul class="meal-attributes">
+            <li class="meal-attribute">
+              <ion-icon class="meal-icon" name="flame-outline"></ion-icon><span><strong>650</strong> calories</span>
+            </li>
+            <li class="meal-attribute">
+              <ion-icon class="meal-icon" name="restaurant-outline"></ion-icon><span>Nutriscore &reg; <strong>74</strong></span>
+            </li>
+            <li class="meal-attribute">
+              <ion-icon class="meal-icon" name="star-outline"></ion-icon><span><strong>4.9</strong> (537)</span> </li>
+          </ul> 
+        </div>
+          </div>
+          <div class="meal">
+            <img src="img/meal-2.jpg" class="meal-img"
+             alt="japanese gyozas"/>
+             <div class="meal-content ">
+             <div class="meal-tags"> 
+            <span class="tag tag--vegan">Vegan</span>
+            <span class="tag tag--paleo">Paleo</span>
+          </div>
+             <p class="meal-title">Avocado Salad</p>
+             <ul class="meal-attributes">
+            <li class="meal-attribute">
+              <ion-icon class="meal-icon" name="flame-outline"></ion-icon><span><strong>400</strong> calories</span>
+            </li>
+            <li class="meal-attribute">
+              <ion-icon class="meal-icon" name="restaurant-outline"></ion-icon><span>Nutriscore &reg; <strong>92</strong></span>
+            </li>
+            <li class="meal-attribute">
+              <ion-icon class="meal-icon" name="star-outline"></ion-icon><span><strong>4.8</strong> (441)</span> </li>
+          </ul> 
+        </div>
+          </div>
+          <div class="diets">
+            <h3 class="heading-tertiary">Works with any diet</h3>
+            <ul class="list">
+              <li class="list-item"><ion-icon
+               class="list-icon"  name="checkmark-outline"></ion-icon><span>Vegetarian</span></li>
+              <li class="list-item"><ion-icon 
+              class="list-icon"  name="checkmark-outline"></ion-icon><span>Vegan</span></li>
+              <li class="list-item"><ion-icon
+               class="list-icon"  name="checkmark-outline"></ion-icon><span>Pescatarian</span></li>
+              <li class="list-item"><ion-icon
+               class="list-icon"  name="checkmark-outline"></ion-icon><span>Gluten-free</span></li>
+              <li class="list-item"><ion-icon 
+               class="list-icon" name="checkmark-outline"></ion-icon><span>Lactose-free</span></li>
+              <li class="list-item"><ion-icon
+               class="list-icon"  name="checkmark-outline"></ion-icon><span>Keto</span></li>
+              <li class="list-item"><ion-icon
+               class="list-icon"  name="checkmark-outline"></ion-icon><span>Paleo</span></li>
+              <li class="list-item"><ion-icon
+               class="list-icon"  name="checkmark-outline"></ion-icon><span>Low FODMAR</span></li>
+              <li class="list-item"><ion-icon
+                class="list-icon" name="checkmark-outline"></ion-icon><span>Kid-friendly</span> </li>
+
+            </ul>
+          </div>
+        </div>
+        <div class="container all-recipes">
+          <a href="#" class="link">see all recipes &rarr;</a>
+        </div>
+      </section>
+      <section class="section-testimonials grid grid--2-cols">
+        <div class="testimonial-container">
+        <span class="subheading">Testimonials</span>
+        <h2 class="heading-secondary ">Once you try it, you can't go back</h2>
+        <div class="testimonials">
+         <figure class="testimonial">
+          <img
+           class="testimonial-img"
+            src="img/dave.jpg"
+             alt="Photo of customer Dave Bryson"/>
+             <blockquote class="testimonial-text">
+              Inexpensive, healthy and great-tasting meals, without
+              even having
+              to order manually! <br>
+              It feels truly magical.
+             </blockquote>
+             <p class="testimonial-name">&mdash; Dav Bryson</p>
+         </figure>
+         <figure class="testimonial">
+          <img
+           class="testimonial-img"
+            src="img/ben.jpg"
+             alt="Photo of customer Ben Hadley"/>
+             <blockquote class="testimonial-text">
+              The AI algorithm is crazy good, it chooses the right meals for me 
+              every time. It's amazing  not to worry about food anymore!
+              
+             </blockquote>
+             <p class="testimonial-name">&mdash; Ben Hadley</p>
+         </figure>
+         <figure class="testimonial">
+          <img
+           class="testimonial-img"
+            src="img/steve.jpg"
+             alt="Photo of customer Dave Bryson"/>
+             <blockquote class="testimonial-text">
+              Omnifood is a life saver! I just started a company, so 
+              there's no time for cooking. I couldn't live without 
+              my daily meals now!
+             </blockquote>
+             <p class="testimonial-name">&mdash; Steve Miller</p>
+         </figure>
+         <figure class="testimonial">
+          <img
+           class="testimonial-img"
+            src="img/hannah.jpg"
+             alt="Photo of customer Hannah Smith"/>
+             <blockquote class="testimonial-text">
+              I got Omnifood for the whole family , and it frees up 
+              so much time! 
+              plus, everything is organic  and vegan and without
+              plastic.
+             </blockquote>
+             <p class="testimonial-name">&mdash; Hannah Smith</p>
+         </figure>
+        </div>
+      </div>
+        <div class="gallery">Gallery</div>
       </section>
     </main>
   </body>
