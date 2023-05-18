@@ -19,7 +19,7 @@
 /* below 1200px (landscape tablets) */
 /* **************** */
 
-@meadia (max-width:75em) {
+@media (max-width: 75em) {
   html {
     font-size: 9px;
   }
